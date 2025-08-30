@@ -37,7 +37,6 @@ public interface RandomSourceFactoriesMixin {
         cir.setReturnValue(new LxmRandomSource(System.nanoTime() ^ Thread.currentThread().threadId()));
     }
 
-
 }
 
 
