@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.example.fasterrandomnf.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RandomSourceFactoriesMixin",
+    "EntityRandomPatch"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
+
